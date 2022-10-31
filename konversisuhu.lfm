@@ -1,0 +1,139 @@
+object Form1: TForm1
+  Left = 335
+  Height = 354
+  Top = 139
+  Width = 207
+  Caption = '"Suhu"'
+  ClientHeight = 354
+  ClientWidth = 207
+  LCLVersion = '2.2.2.0'
+  object Label1: TLabel
+    Left = 19
+    Height = 26
+    Top = 80
+    Width = 23
+    Alignment = taCenter
+    Caption = 'ºC'
+    Font.Height = -21
+    Font.Name = 'SF Pro Display'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 22
+    Height = 26
+    Top = 128
+    Width = 20
+    Alignment = taCenter
+    Caption = 'ºF'
+    Font.Height = -21
+    Font.Name = 'SF Pro Display'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 26
+    Top = 176
+    Width = 32
+    Alignment = taCenter
+    Caption = 'ºRé'
+    Font.Height = -21
+    Font.Name = 'SF Pro Display'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 29
+    Height = 26
+    Top = 224
+    Width = 13
+    Alignment = taCenter
+    Caption = 'K'
+    Font.Height = -21
+    Font.Name = 'SF Pro Display'
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditC: TEdit
+    Left = 72
+    Height = 37
+    Top = 72
+    Width = 120
+    TabOrder = 0
+  end
+  object EditF: TEdit
+    Left = 72
+    Height = 37
+    Top = 120
+    Width = 120
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object EditR: TEdit
+    Left = 72
+    Height = 37
+    Top = 168
+    Width = 120
+    DoubleBuffered = False
+    ParentDoubleBuffered = False
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object EditK: TEdit
+    Left = 72
+    Height = 37
+    Top = 216
+    Width = 120
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object ButtonKON: TButton
+    Left = 72
+    Height = 40
+    Top = 272
+    Width = 120
+    Caption = 'Konversikan'
+    Font.Height = -13
+    Font.Name = 'SF Pro Display'
+    Font.Style = [fsBold]
+    OnClick = ButtonKONClick
+    OnEnter = ButtonKONClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object ButtonHapus: TButton
+    Left = 16
+    Height = 40
+    Top = 272
+    Width = 43
+    Caption = 'C'
+    OnClick = ButtonHapusClick
+    TabOrder = 5
+  end
+  object ButtonKeluar: TButton
+    Left = 117
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = 'Keluar'
+    Font.Height = -13
+    Font.Name = 'SF Pro Display'
+    OnClick = ButtonKeluarClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label5: TLabel
+    Left = 56
+    Height = 44
+    Top = 8
+    Width = 99
+    Alignment = taCenter
+    Caption = '"Suhu" '#10'Converter'
+    Font.Height = -19
+    Font.Name = 'Comfortaa'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
