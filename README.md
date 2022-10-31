@@ -1,2 +1,2 @@
 # "Suhu" Converter
-The simple and linear temp converter made with Lazarus IDE
+Simple linear temp converter made with Lazarus IDE
